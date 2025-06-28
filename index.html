@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./public/CSS/style.css" />
+    <link rel="stylesheet" href="./public/CSS/mediaqueries.css" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Loopstudios landing page</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="desktop">
+            <img src="./public/images/logo.svg" alt="Logo" />
+
+            <ul class="nav_item">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Events</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Support</a></li>
+            </ul>
+          </div>
+
+          <div class="mobile">
+            <img src="./public/images/logo.svg" alt="Logo" />
+
+            <button class="nav-btn hamburger-btn" aria-label="Menu" type="button">
+              <img src="./public/images/mobile/hamburger.svg" alt="Icone menu hamburger" />
+            </button>
+
+            <div class="modal-menu">
+              <div class="modal-top">
+                <img src="./public/images/logo.svg" alt="Logo" />
+                <button class="nav-btn close-nav-btn" type="button">+</button>
+              </div>
+              <ul class="nav_item menu-mobile">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Support</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div class="hero_main-title">
+          <h1>IMMERSIVE EXPERIENCES THAT DELIVER</h1>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- INTERACTIVE VR -->
+      <section class="interactive_vr-section">
+        <div class="interactive-img-container">
+          <img src="./public/images/desktop/image-interactive.jpg" alt="Une personne avec un casque VR sur la tête" />
+        </div>
+        <div class="interactive-text-container">
+          <div class="text-container">
+            <h2>The leader in interactive vr</h2>
+            <p>
+              Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best
+              companies around the globe. Our award-winning creations have transformed businesses through digital
+              experiences that bind to their brand.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- OUR CREATIONS -->
+      <section class="our_creation-section">
+        <h3>Our creations</h3>
+        <a href="#" class="seel-all-btn">See all</a>
+
+        <div class="our_creation-grid-card">
+          <a href="#">
+            <div class="filter-card"></div>
+            <h3>
+              DEEP
+              <br />
+              EARTH
+            </h3>
+
+            <picture>
+              <source media="(max-width: 829px)" srcset="./public/images/mobile/image-deep-earth.jpg" />
+
+              <img src="./public/images/desktop/image-deep-earth.jpg" alt="earth" />
+            </picture>
+          </a>
+
+          <a href="#">
+            <div class="filter-card"></div>
+            <h3>
+              NIGHT
+              <br />
+              ARCADE
+            </h3>
+
+            <picture>
+              <source media="(max-width: 829px)" srcset="./public/images/mobile/image-night-arcade.jpg" />
+              <img src="./public/images/desktop/image-night-arcade.jpg" alt="earth" />
+            </picture>
+          </a>
+
+          <a href="#">
+            <div class="filter-card"></div>
+            <h3>
+              SOCCER
+              <br />
+              TEAM VR
+            </h3>
+            <picture>
+              <source media="(max-width: 829px)" srcset="./public/images/mobile/image-soccer-team.jpg" />
+              <img src="./public/images/desktop/image-soccer-team.jpg" alt="earth" />
+            </picture>
+          </a>
+
+          <a href="#">
+            <div class="filter-card"></div>
+            <h3>
+              THE
+              <br />
+              GRID
+            </h3>
+            <picture>
+              <source media="(max-width: 829px)" srcset="./public/images/mobile/image-grid.jpg" />
+
+              <img src="./public/images/desktop/image-grid.jpg" alt="earth" />
+            </picture>
+          </a>
+
+          <a href="#">
+            <div class="filter-card"></div>
+            <h3>
+              FROM UP
+              <br />
+              ABOVE VR
+            </h3>
+            <picture>
+              <source media="(max-width: 829px)" srcset="./public/images/mobile/image-from-above.jpg" />
+
+              <img src="./public/images/desktop/image-from-above.jpg" alt="earth" />
+            </picture>
+          </a>
+
+          <a href="#">
+            <div class="filter-card"></div>
+            <h3>
+              POCKET
+              <br />
+              BOREALIS
+            </h3>
+            <picture>
+              <source media="(max-width: 829px)" srcset="./public/images/mobile/image-pocket-borealis.jpg" />
+
+              <img src="./public/images/desktop/image-pocket-borealis.jpg" alt="earth" />
+            </picture>
+          </a>
+
+          <a href="#">
+            <div class="filter-card"></div>
+            <h3>
+              THE
+              <br />
+              CURIOSITY
+            </h3>
+            <picture>
+              <source media="(max-width: 829px)" srcset="./public/images/mobile/image-curiosity.jpg" />
+
+              <img src="./public/images/desktop/image-curiosity.jpg" alt="earth" />
+            </picture>
+          </a>
+
+          <a href="#">
+            <div class="filter-card"></div>
+            <h3>
+              MAKE IT
+              <br />
+              FISHEYE
+            </h3>
+            <picture>
+              <source media="(max-width: 829px)" srcset="./public/images/mobile/image-fisheye.jpg" />
+
+              <img src="./public/images/desktop/image-fisheye.jpg" alt="earth" />
+            </picture>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="top">
+          <img src="./public/images/logo.svg" alt="Logo" />
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </div>
+
+        <div class="bottom">
+          <ul class="network">
+            <li>
+              <a href="#"><img src="./public/images/icon-facebook.svg" alt="Facebook logo" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./public/images/icon-twitter.svg" alt="Twitter logo" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./public/images/icon-pinterest.svg" alt="Pinterest logo" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./public/images/icon-instagram.svg" alt="Instagram logo" /></a>
+            </li>
+          </ul>
+
+          <p class="copyright"></p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./public/JS/nav.js"></script>
+    <script src="./public/JS/copyright.js"></script>
+  </body>
+</html>
