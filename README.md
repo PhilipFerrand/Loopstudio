@@ -1,3 +1,3 @@
-Pour visualiser le projet en ligne, cliquez ici 👉 https://splendira.github.io/Loopstudio/
+Pour visualiser le projet en ligne, cliquez ici 👉 https://philipferrand.github.io/Loopstudio/
 
-To view the project, click here 👉 https://splendira.github.io/Loopstudio/
+To view the project, click here 👉 https://philipferrand.github.io/Loopstudio/
